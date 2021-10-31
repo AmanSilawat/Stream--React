@@ -1,0 +1,31 @@
+.section {
+  position: relative;
+  text-align: center;
+  padding-top: 6.66rem;
+  margin-bottom: 9.91rem;
+}
+
+.section .darkPara {
+  color: #000;
+  max-width: 49.83rem;
+  margin: 0 auto;
+}
+
+.section .lightPara {
+  max-width: 45.33rem;
+  margin: 1.33rem auto 2rem;
+}
+
+.section .bannerAttachment {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 480px) {
+  .section .bannerAttachment {
+    width: 200px;
+  }
+}
+/*# sourceMappingURL=Banner.module.css.map */

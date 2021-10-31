@@ -1,0 +1,36 @@
+@import './../../sassStyles/Variables.module.scss';
+
+.section {
+	background-color: $colorBlack;
+
+	.innerSection {
+		height: 4.66rem;
+		display: flex;
+		flex: 1 1 auto;
+		align-items: center;
+		justify-content: center;
+	}
+
+	a {
+		color: $colorWhite;
+		margin: 0 2.33rem;
+		text-decoration: none;
+
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 600;
+		font-size: 1.33rem;
+		line-height: 2rem;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.section {
+		a {
+			font-size: 1rem;
+		}
+	}
+}

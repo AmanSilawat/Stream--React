@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,QAAQ,CAAC;EACR,WAAW,ECGG,OAAO;CDFrB",
+    "sources": [
+        "Layout.module.scss",
+        "../../sassStyles/Variables.module.scss"
+    ],
+    "names": [],
+    "file": "Layout.module.css"
+}

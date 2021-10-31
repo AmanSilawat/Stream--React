@@ -1,0 +1,17 @@
+.group button {
+  max-width: 432px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.group button:nth-child(2) {
+  margin-top: 1.33rem;
+  margin-bottom: 1rem;
+}
+
+.group .smallPara {
+  font-size: 0.83rem;
+}
+/*# sourceMappingURL=Subscribe.module.css.map */

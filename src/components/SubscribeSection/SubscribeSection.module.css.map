@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACR,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,OAAO;CACtB;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAClC,AAAA,QAAQ,CAAC;IACR,UAAU,EAAE,IAAI;IAChB,aAAa,EAAE,OAAO;GACtB",
+    "sources": [
+        "SubscribeSection.module.scss"
+    ],
+    "names": [],
+    "file": "SubscribeSection.module.css"
+}

@@ -1,0 +1,66 @@
+@import './../../sassStyles/Variables.module.scss';
+
+.btn {
+	border-radius: 0.5rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 1.66rem;
+	padding: 0.5rem 2.5rem;
+	box-sizing: border-box;
+	cursor: pointer;
+
+	&.btn--black {
+		color: $colorWhite;
+		background: $colorBlack;
+		border: 0.08rem solid $colorBlack;
+		transition: $buttonAnimation;
+
+		&:hover {
+			color: $colorBlack;
+			background: $colorWhite;
+		}
+	}
+
+	&.btn--outline {
+		color: $colorSecondary;
+		background: $colorWhite;
+		border: 0.08rem solid $colorBlack;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		transition: $buttonAnimation;
+
+		&:hover {
+			color: $colorWhite;
+			background: $colorSecondary;
+			border: 0.08rem solid $colorWhite;
+		}
+	}
+
+	&.btn--filled {
+		color: $colorWhite;
+		background: $colorPrimary;
+		border: 0.08rem solid $colorPrimary;
+		font-weight: 600;
+		transition: $buttonAnimation;
+
+		&:hover {
+			color: $colorPrimary;
+			background: $colorWhite;
+		}
+	}
+
+	&.btn--large {
+		padding: 1.09rem 1.33rem 1.33rem;
+		// height: 4rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.btn {
+		padding: 0.4rem 2rem;
+		&.btn--large {
+			padding: 0.83rem;
+		}
+	}
+}

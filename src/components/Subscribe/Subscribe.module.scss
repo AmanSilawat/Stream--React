@@ -1,0 +1,18 @@
+.group {
+	button {
+		max-width: 432px;
+		width: 100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+
+		&:nth-child(2) {
+			margin-top: 1.33rem;
+			margin-bottom: 1rem;
+		}
+	}
+
+	.smallPara {
+		font-size: 0.83rem;
+	}
+}

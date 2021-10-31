@@ -1,0 +1,68 @@
+.btn {
+  border-radius: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.66rem;
+  padding: 0.5rem 2.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+
+.btn.btn--black {
+  color: #fff;
+  background: #000;
+  border: 0.08rem solid #000;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn.btn--black:hover {
+  color: #000;
+  background: #fff;
+}
+
+.btn.btn--outline {
+  color: #828282;
+  background: #fff;
+  border: 0.08rem solid #000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn.btn--outline:hover {
+  color: #fff;
+  background: #828282;
+  border: 0.08rem solid #fff;
+}
+
+.btn.btn--filled {
+  color: #fff;
+  background: #ff0064;
+  border: 0.08rem solid #ff0064;
+  font-weight: 600;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn.btn--filled:hover {
+  color: #ff0064;
+  background: #fff;
+}
+
+.btn.btn--large {
+  padding: 1.09rem 1.33rem 1.33rem;
+}
+
+@media screen and (max-width: 480px) {
+  .btn {
+    padding: 0.4rem 2rem;
+  }
+  .btn.btn--large {
+    padding: 0.83rem;
+  }
+}
+/*# sourceMappingURL=Button.module.css.map */

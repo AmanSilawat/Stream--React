@@ -1,0 +1,40 @@
+.section {
+  background-color: #000;
+}
+
+.section .innerSection {
+  height: 4.66rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section a {
+  color: #fff;
+  margin: 0 2.33rem;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.33rem;
+  line-height: 2rem;
+}
+
+.section a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+  .section a {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=Footer.module.css.map */

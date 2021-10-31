@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACC,MADK,CACL,MAAM,CAAC;EACN,SAAS,EAAE,KAAK;EAChB,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,KAAK;EACd,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;CAMlB;;AAZF,AAQE,MARI,CACL,MAAM,AAOJ,UAAW,CAAA,CAAC,EAAE;EACd,UAAU,EAAE,OAAO;EACnB,aAAa,EAAE,IAAI;CACnB;;AAXH,AAcC,MAdK,CAcL,UAAU,CAAC;EACV,SAAS,EAAE,OAAO;CAClB",
+    "sources": [
+        "Subscribe.module.scss"
+    ],
+    "names": [],
+    "file": "Subscribe.module.css"
+}

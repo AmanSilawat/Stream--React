@@ -1,0 +1,34 @@
+@import './../../sassStyles/Variables.module.scss';
+
+.section {
+	position: relative;
+	text-align: center;
+	padding-top: 6.66rem;
+	margin-bottom: 9.91rem;
+
+	.darkPara {
+		color: $colorBlack;
+		max-width: 49.83rem;
+		margin: 0 auto;
+	}
+
+	.lightPara {
+		max-width: 45.33rem;
+		margin: 1.33rem auto 2rem;
+	}
+
+	.bannerAttachment {
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: -1;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.section {
+		.bannerAttachment {
+			width: 200px;
+		}
+	}
+}
